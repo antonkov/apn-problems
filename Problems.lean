@@ -1,0 +1,9 @@
+import Problems.Erdos12
+import Problems.Erdos26
+import Problems.Erdos125
+import Problems.Erdos138
+import Problems.Erdos152
+import Problems.Erdos741
+import Problems.Erdos846
+import Lib.Defs
+import Lib.Answer

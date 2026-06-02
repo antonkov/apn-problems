@@ -1,0 +1,24 @@
+name = "erdos_problems"
+keywords = ["math"]
+defaultTargets = ["Problems"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.30.0"
+
+
+[[lean_lib]]
+name = "Lib"
+globs = ["Lib.+"]
+
+[[lean_lib]]
+name = "Problems"
+globs = ["Problems.+"]
+[lean_lib.leanOptions]
+warn.sorry = false
